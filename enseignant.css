@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif;
+    color: white;
+}
+
+html,
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+body {
+    background: grey;
+    display: flex;
+    padding-top: 70px;
+    padding-bottom: 48px;
+}
+
+a {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 70px;
+    background: rgba(0, 0, 0, .3);
+}
+
+header nav {
+    display: flex;
+    padding: 0px 16px;
+    align-items: center;
+    height: 100%
+}
+
+.site-title {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 32px;
+}
+
+.nav-links-wrapper {
+    list-style: none;
+    display: flex;
+    margin-left: 16px;
+}
+
+.nav-links-wrapper li a {
+    padding: 16px 32px;
+}
+
+aside {
+    flex: 1;
+    padding: 16px;
+}
+
+ul>ul.subitem {
+    margin-left: 16px;
+}
+
+aside li {
+    padding: 8px 16px;
+}
+
+aside nav>ul>li a {
+    font-weight: bold;
+}
+
+main {
+    background: rgba(0, 0, 0, 0.4);
+    flex: 4;
+}
+
+.container {
+    display: flex;
+}
+
+.container div {
+    flex: 1;
+    padding: 64px;
+}
+
+.container .cover {
+    max-width: 100%;
+}
+
+hr {
+    margin-top: 64px;
+}
+
+h3 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 30px;
+    margin: 0px 0px 20px 0px;
+}
+
+p {
+    padding-left: 36px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0px;
+    text-align: center;
+    max-height: 48px;
+    padding: 16px;
+    background: black;
+}
+
+.contact {
+    color: white;
+    text-decoration: none;
+}
